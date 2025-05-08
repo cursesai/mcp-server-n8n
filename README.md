@@ -100,16 +100,15 @@ A aplicação estará disponível em: **http://localhost:5678**
 
 4. Clique em "Next" para criar sua conta.
 
-<img width="320" alt="img-01" src="https://github.com/user-attachments/assets/b2ce8503-3034-4b62-9302-33bd4dc4b9ec" />
-
+<img width="320" alt="img-01" src="https://github.com/user-attachments/assets/3796ca53-9f82-4ff8-9c0f-6467ae8d4e21" />
 
 5. O próximo formulário é apenas uma pesquisa e pode ser ignorado clicando em "Get Started"
 
-<img width="320" alt="img-01" src="https://github.com/user-attachments/assets/0f40008e-44e0-48a6-a206-86eb51d715f8" />
+<img width="320" alt="img-02" src="https://github.com/user-attachments/assets/90197a57-62af-4c29-a9da-b5bc249f997e" />
 
 6. A próxima tela vai oferecer a possibilidade de obtenção de uma chave de licença. Caso não deseje obter, basta clicar em "skip"
 
-<img width="320" alt="img-01" src="https://github.com/user-attachments/assets/e96d06a4-24e5-4b25-9030-f34b0cdeb0dd" />
+<img width="320" alt="img-03" src="https://github.com/user-attachments/assets/a811ce99-04ff-4ce4-9665-69f2bb1f8527" />
 
 7. Após o cadastro, você será redirecionado para a página principal do n8n
 
@@ -120,7 +119,7 @@ A aplicação estará disponível em: **http://localhost:5678**
 1. Na tela inicial do n8n, clique no botão "Create Workflow" no canto superior direito
 2. Você será direcionado para o editor de workflows, onde verá uma tela em branco com uma grade
 
-<img width="420" alt="img-04" src="https://github.com/user-attachments/assets/77dbbfcd-a41d-43df-bc2a-6122b9803341" />
+<img width="420" alt="img-04" src="https://github.com/user-attachments/assets/cd461b25-3e5e-435a-aee5-971cfea52987" />
 
 
 3. Dê um nome para seu workflow, por exemplo: "Teste MCP Server" clicando em "My workflow" no canto superior esquerdo.
@@ -130,14 +129,14 @@ A aplicação estará disponível em: **http://localhost:5678**
 1. Clique em "Add first step" para iniciar a montagem do workflow.
 2. No painel esquerdo, você verá a barra de pesquisa "Search nodes..."
 
-<img width="420" alt="img-04" src="https://github.com/user-attachments/assets/a4205089-e3c9-4bc8-ae4f-c080ce73b41a" />
+<img width="420" alt="img-05" src="https://github.com/user-attachments/assets/659992e9-c469-4861-ae1d-5270fefb7512" />
 
 3. Digite "AI Agent" na barra de pesquisa
 4. Localize o nó "AI Agent" nos resultados da pesquisa
 5. Clique e arraste o nó "AI Agent" para o centro da tela
 6. O painel de configuração do "AI Agent" será exibido na sequência. Para testar o MCP Server, podemos deixar os parametros sem alteração. Em seguida, podemos fechar este painel clicando em "<- Back to canvas" no canto superior esquerdo da tela. 
 
-<img width="420" alt="img-06" src="https://github.com/user-attachments/assets/ca2d90ce-b9b3-4d9e-8ab4-632a74332656" />
+<img width="420" alt="img-06" src="https://github.com/user-attachments/assets/4b3057d9-581c-4da5-9508-9a22aa03311d" />
 
 
 ### Configurando o Modelo LLM (Chat Model)
@@ -146,18 +145,17 @@ A aplicação estará disponível em: **http://localhost:5678**
 2. Na aba lateral selecione o modelo na aba lateral. Pesquise o seu modelo LLM na barra de pesquisa "Search nodes..."
 3. Selecione o modelo LLM que deseja usar (por exemplo: "OpenAI" ou "Anthropic")
 
-<img width="320" alt="img-07" src="https://github.com/user-attachments/assets/6bcf3a96-9cb4-4c8b-8f8c-2cf276d8a3df" />
-
+<img width="320" alt="img-07" src="https://github.com/user-attachments/assets/7ecbb9b0-a46f-443d-b43e-1dd8ff50cfa6" />
 
 4. Após selecionar o modelo, você verá um campo "Credential to connect with" que mostra "Select Credential"
 
-<img width="320" alt="img-07" src="https://github.com/user-attachments/assets/766bad87-5f47-45a8-9415-441030711acf" />
+<img width="320" alt="img-08" src="https://github.com/user-attachments/assets/e69e295c-7822-4311-955e-55e3f785e996" />
 
 5. Clique em "Select Credential" em seguida clique "Create new credential" para abrir a janela de configuração de credenciais
 6. Na janela de credenciais, você verá:
    - API Key: campo para inserir sua chave de API
    
-<img width="420" alt="img-09" src="https://github.com/user-attachments/assets/779312bc-4583-4a5e-aeee-6a787dc6a2b1" />
+<img width="420" alt="img-09" src="https://github.com/user-attachments/assets/6fe3b244-327c-46df-ae59-a578e63f9069" />
 
    > **Observação**: Para obter uma API Key:
    > - Para OpenAI: Acesse [platform.openai.com](https://platform.openai.com), crie uma conta e gere uma API Key
@@ -176,12 +174,11 @@ A aplicação estará disponível em: **http://localhost:5678**
 1. Para adicionar uma memória no AI Agent clique em "+ Memory"
 2. Na barra lateral clique no node "Simple Memory"
 
-<img width="320" alt="img-10" src="https://github.com/user-attachments/assets/06f17176-47b7-46f5-93aa-6eba78919341" />
-
+<img width="320" alt="img-10" src="https://github.com/user-attachments/assets/8160e7a7-ed54-4627-8401-917b38902cfb" />
 
 3. No campo "Context Window Length", defina o tamanho da janela de contexto (recomendado: 20)
 
-<img width="320" alt="img-11" src="https://github.com/user-attachments/assets/a95486e6-29d1-4663-8e3f-fdeb8affc839" />
+<img width="320" alt="img-11" src="https://github.com/user-attachments/assets/d1110429-956d-42f2-9f09-cae222e0f792" />
 
 4. Clique em "<- Back to canvas" no canto superior esquerdo da tela para voltar ao workflow
 
@@ -189,7 +186,7 @@ A aplicação estará disponível em: **http://localhost:5678**
 
 1. Para adicionar um MCP Client no AI Agent clique em "+ Tools"
 
-<img width="420" alt="img-12" src="https://github.com/user-attachments/assets/5230bf5d-c092-4711-9ae7-7ac70d4884e5" />
+<img width="420" alt="img-12" src="https://github.com/user-attachments/assets/b4cbba37-35db-4d13-8c25-da2aeee13668" />
 
 3. Na barra lateral, procure na barra de pesquisa "Search nodes..." por "MCP Client Tool" e selecione na lista de ferramentas disponíveis
 5. Configure o MCP Client com os seguintes parâmetros:
@@ -197,13 +194,13 @@ A aplicação estará disponível em: **http://localhost:5678**
    - **Authentication**: Como estamos em um ambiente local e isolado, podemos deixar o campo "Authentication" como "None".
    > **Atenção** Esta aplicação é para fins de experimentação e aprendizado. Para uso em produção você deve usar algum método de autenticação.
 
-<img width="320" alt="img-13" src="https://github.com/user-attachments/assets/505649bc-95a4-4bb0-9bc7-9dd79073acfa" />
+<img width="320" alt="img-13" src="https://github.com/user-attachments/assets/063ca728-154f-4c68-8def-45d625b9ab87" />
 
 
    - **Tools**: Clique no campo e selecione "All" para usar todas as ferramentas disponíveis
    > **Dica**: Se quiser verificar a conexão com o MCP Server, você pode selecionar "Selected" em vez de "All". Isso mostrará uma lista das ferramentas disponíveis. Se a lista aparecer, significa que a conexão está funcionando corretamente.
    
-<img width="520" alt="img-14" src="https://github.com/user-attachments/assets/e1e746a5-b0b4-4822-8658-c984edb81dd0" />
+<img width="520" alt="img-14" src="https://github.com/user-attachments/assets/838ce6f3-4e95-4145-ab3e-238cf0e9b32c" />
 
 6. Após configurar todos os parâmetros, clique em "<- Back to canvas" no canto superior esquerdo da tela para voltar ao workflow
 7. Após voltar ao workflow, clique em "Save" no canto superiro direito para salvar as configurações realizadas no seu workflow.
@@ -215,15 +212,14 @@ Depois de configurar o AI Agent, você pode testar as ferramentas do MCP Server:
 1. No painel de configuração do AI Agent, role até o final da página
 2. Clique no botão "Open Chat" na parte inferior do painel de configuração
 
-<img width="520" alt="img-15" src="https://github.com/user-attachments/assets/c3268cb5-443f-4f6b-b0a8-68aed94cd6c4" />
+<img width="520" alt="img-15" src="https://github.com/user-attachments/assets/021886a3-3fda-46be-bedc-f4be1ae69d6d" />
 
 3. Uma janela de chat será aberta, semelhante a um chat de IA
 4. No campo de texto na parte inferior do chat, experimente os seguintes comandos:
    - Digite `ping` e pressione Enter - o agente deve responder com "pong"
    - Digite `acho eu` e pressione Enter - o agente deve responder com "acho eu I love you!"
 
-<img width="420" alt="img-16" src="https://github.com/user-attachments/assets/693be981-26cc-4ed0-a0ac-d4ed2c6f93f7" />
-
+<img width="420" alt="img-16" src="https://github.com/user-attachments/assets/22ab955b-b6d4-47fc-8053-603ac8142f11" />
 
 Esses comandos acionam as ferramentas disponibilizadas pelo MCP Server, demonstrando que a conexão entre o n8n e o MCP Server está funcionando corretamente.
 

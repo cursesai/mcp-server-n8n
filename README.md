@@ -53,7 +53,7 @@ Para utilizar esta aplicação, você precisará ter:
    ```
 3. Inicie os containers Docker:
    ```
-   docker-compose up -d
+   start.bat
    ```
 4. Para finalizar os containers Docker:
     ```
@@ -72,7 +72,7 @@ Para utilizar esta aplicação, você precisará ter:
    ```
 3. Inicie os containers Docker
    ```
-   docker-compose up -d
+   ./start.sh
    ```
 4. Para finalizar os containers Docker:
     ```

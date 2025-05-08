@@ -36,7 +36,7 @@ Este projeto foi criado para fins educacionais e de experimentação.
 Para utilizar esta aplicação, você precisará ter:
 
 - **Docker** e **Docker Compose** instalados no seu computador
-  - Windows: [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+  - Windows: [Docker Desktop](https://www.docker.com/products/docker-desktop/) e [Git](https://git-scm.com/download/win)
   - Linux: doker.io, docker-compose e docker-buildx
 
 ## Instalação
@@ -59,6 +59,7 @@ Para utilizar esta aplicação, você precisará ter:
     ```
     docker-compose down
     ```
+> **Observação** -  Caso enfrente dificuldades para instalar o Docker Desktop no Windows, utilize o WSL com uma distribuição linux.
 
 ### No Linux
 

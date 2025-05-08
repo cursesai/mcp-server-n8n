@@ -295,7 +295,7 @@ Após modificar o arquivo `server.py`, você precisa reiniciar os containers par
 
 1. Abra um terminal ou prompt de comando
 2. Navegue até a pasta do projeto
-3. Execute o comando:
+3. Execute o comando abaixo no mesmo diretório onde está localizado o arquivo `docker-compose.yml`:
    ```
    docker-compose restart
    ```
